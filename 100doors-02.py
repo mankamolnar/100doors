@@ -12,7 +12,6 @@ doors = ["c"] * 100
 #magic :D
 for i in range(1, 101):
     j = 0
-    writeOpenedDoors(doors)
     for value in doors:
         if (j % i == 0):
             if doors[j] == "c":
